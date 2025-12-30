@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: meals-app
+  labels:
+    app: meal
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: meal
+  template:
+    metadata:
+      name: meals-app
+      labels:
+        app: meal
+    spec:
+      containers:
+      - name: meals-app
+        image: piyushw98/meals-app
+        ports:
+          - containerPort: 80
