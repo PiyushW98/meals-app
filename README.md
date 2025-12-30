@@ -23,3 +23,10 @@
   <li>Use this command to run the image</li>
   <li>Command: docker run -d -p 3000:80 meals-app</li>
 </ul>
+
+## Kubernetes Integration 
+<ul>
+  <li>Go to k8s folder/directory</li>
+  <li>Use this command to apply the k8s files present inside folder/directory</li>
+  <li>Command: kubectl apply -f .</li>
+</ul>
