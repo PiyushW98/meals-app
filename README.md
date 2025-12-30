@@ -12,6 +12,7 @@
 ## Requirement 
 <ul>
   <li>Install Docker</li>
+  <li>Install Kubernetes</li>
   <li>Expose port number 3000</li>
 </ul>
 
